@@ -37,7 +37,7 @@ static int ea_set_matrix(struct drm_crtc *crtc, unsigned int bl_lvl)
 	struct exynos_drm_crtc_state fake_crtc_state;
 	uint32_t blob_id;
 	__u16 ofs, coef;
-	int rc;
+	int rc = 0;
 
 	if (crtc == NULL) {
 		pr_err("crtc has not been initialized\n");
