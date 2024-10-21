@@ -332,7 +332,7 @@ static const struct drm_dsc_config fhd_pps_config = {
 #define MIPI_DSI_FREQ_DEFAULT 1368
 #define MIPI_DSI_FREQ_ALTERNATIVE 1346
 
-/**
+/*
  * When segmented dimming is enabled, brightness higher than this is treated as
  * high brightness and uses freq_cmd_high_brightness for backlight control.
  * Otherwise freq_cmd is used.
