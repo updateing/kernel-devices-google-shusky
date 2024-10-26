@@ -142,3 +142,8 @@ unsigned int ea_panel_calc_backlight(unsigned int bl_lvl)
 		return bl_lvl;
 	}
 }
+EXPORT_SYMBOL(ea_panel_calc_backlight);
+
+MODULE_AUTHOR("Hamster Tian <haotia@gmail.com>");
+MODULE_DESCRIPTION("Exposure adjustment logic for Google HK3 panel");
+MODULE_LICENSE("GPL");

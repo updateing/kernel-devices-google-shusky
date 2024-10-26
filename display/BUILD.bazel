@@ -16,6 +16,7 @@ kernel_module(
     ],
     outs = [
         # keep sorted
+        "exposure-adj.ko",
         "panel-google-bigsurf.ko",
         "panel-google-hk3.ko",
         "panel-google-shoreline.ko",
